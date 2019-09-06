@@ -143,16 +143,14 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.how-we-work {
-    width: 48%;
-}
-
-.places-we-work {
-    width: 48%;
-}
-
-.collaboration {
-    width: 48%;
+.about-box button{
+    padding: 10px 20px 10px 20px;
+    margin: 20px 20px 20px 0px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .middle-content {
