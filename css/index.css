@@ -120,6 +120,35 @@ p {
     padding-bottom: 20px;  
 }
 
+.middle-content-about{
+    margin-bottom: 20px;
+}
+
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    width: 48%;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed black;
+}
+
+.how-we-work {
+    width: 48%;
+}
+
+.places-we-work {
+    width: 48%;
+}
+
+.collaboration {
+    width: 48%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
