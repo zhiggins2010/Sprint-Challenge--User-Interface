@@ -28,6 +28,34 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-bottom: 20px;
+    
+    border: 1px solid red;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    padding-left: 15%;
+    border: solid red 1px;
+    
+}
+header nav a{
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    border: 1px solid red;
+}
+
 body {
 	line-height: 1;
 }
@@ -69,6 +97,11 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .top-content {
